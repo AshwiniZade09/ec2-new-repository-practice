@@ -1,7 +1,12 @@
 import json
 import boto3
 
-client  = boto3.client('s3')
+client = boto3.client(
+    's3',
+    aws_access_key_id='ashu-ec2-new-user',
+    aws_secret_access_key='Ashwinizade@09',
+    region_name='ap-south-1'
+)
 source_bucket = 'source-bucket-segmaker-practice '
 destination_bucket  = 'destination-bucket-segmaker-practice'
 
