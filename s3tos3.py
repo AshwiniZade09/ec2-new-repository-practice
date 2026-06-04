@@ -3,8 +3,8 @@ import boto3
 
 client = boto3.client(
     's3',
-    aws_access_key_id='ashu-ec2-new-user',
-    aws_secret_access_key='Ashwinizade@09',
+    aws_access_key_id='AKIA5IFNJZVRCPZ4YDGE',
+    aws_secret_access_key='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',
     region_name='ap-south-1'
 )
 source_bucket = 'source-bucket-segmaker-practice'
